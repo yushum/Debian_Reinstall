@@ -27,6 +27,17 @@ bash InstallNET.sh -d 8 -v 64 -a --mirror 'http://debian.cabletel.com.mk/debian/
 ```
 bash InstallNET.sh -dd "[URL]" --mirror 'http://debian.cabletel.com.mk/debian/'
 ```
+
+## 确保安装了所需软件:
+
+``` 
+#Debian/Ubuntu:
+apt-get install -y xz-utils openssl gawk file
+ 
+#RedHat/CentOS:
+yum install -y xz openssl gawk file
+``` 
+
 ## 下载及说明:
 ``` 
 wget --no-check-certificate -qO InstallNET.sh 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh' && chmod +x InstallNET.sh
