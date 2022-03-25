@@ -8,6 +8,10 @@ bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShe
 ```
 bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -d 11 -v 64 -a -firmware
 ```
+## 小内存VPS安装Debian 11
+```
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/yushum/Debian_Reinstall/master/InstallNET.sh') -d 11 -v 64 -a
+```
 ## 关于debian8源报错
 
 在脚本中可以添加 --mirror 参数切换源。
